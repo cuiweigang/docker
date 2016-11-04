@@ -18,6 +18,6 @@ ADD ./src /var/app/
 RUN ls /var/app
 RUN cd /var/app/ && /var/node-v6/bin/cnpm install
 
-EXPOSE 3000 3000
+EXPOSE 3001 3000
 
 ENTRYPOINT ["/var/node-v6/bin/node","/var/app/app.js"]
