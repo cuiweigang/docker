@@ -4,5 +4,5 @@
  */
 
 exports.index = function(req, res){
-  res.send("hello world by aliyun !")
+  res.send("hello world by cui !")
 };
